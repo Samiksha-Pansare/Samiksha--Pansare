@@ -1026,6 +1026,9 @@ h5.edutitle{
   background-color: green;
   color: #ffffff;
 }
+#c{
+    width: 645px;
+}
 
 
 /* footer section styling */
@@ -1186,8 +1189,10 @@ footer span a:hover{
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
         cursor: pointer;
         transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      }
-      #id{
-          width: 100px;
-      }
+      }      
+}
+@media only screen and (max-width: 991px) {
+    #c{
+        width: 250px;
+    }
 }
